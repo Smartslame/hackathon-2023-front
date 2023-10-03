@@ -1,0 +1,27 @@
+{
+  "name": "HackPg",
+  "version": "2.0.0",
+  "description": "Hack pg",
+  "author": "Coresairs",
+  "private": true,
+  "scripts": {
+    "start": "env-cmd -f ./.env cross-env NODE_ENV=production nuxt start",
+    "build": "env-cmd -f ./.env cross-env NODE_ENV=production nuxt build"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.1",
+    "axios": "^0.17.1",
+    "cross-env": "^5.2.0",
+    "element-ui": "^2.15.14",
+    "env-cmd": "^9.0.3",
+    "nuxt": "^2.17.1",
+    "sass": "^1.26.10",
+    "vue": "^2.5.2",
+    "vuex": "^3.0.1",
+    "watch": "^1.0.2"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  }
+}
